@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+long int x,p,s=0;
+scanf("%ld %ld",&x,&p);
+while(x)
+{
+ s=s+x;
+ x=(p/100)*x;
+}
+printf("%ld",s);
+}
+
